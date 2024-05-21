@@ -190,7 +190,11 @@ section h2 {
     font-size: 25px;
     font-weight: normal;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 20px 0 20px 0;
+}
+
+section h3 {
+    margin-bottom: 30px;
 }
 
 section#sectionInicio {
@@ -283,6 +287,12 @@ section#servico #servicoGrid {
     background: var(--background-header);
     margin-bottom: 20px;
     padding: 40px;
+    display: flex;
+}
+
+.card ion-icon {
+    font-size: 70px;
+    margin-right: 20px;
 }
 
 .card:hover {
@@ -378,7 +388,7 @@ section#contato #contatoRowText div {
     align-items: center;
 }
 
-section#contato #contatoRowText p {
+section#contato #contatoRowText div p {
     margin: auto 0;
 }
 
@@ -463,5 +473,4 @@ section#contato textarea {
         width: 100%;
         margin-bottom: 200px;
     }
-
 }
